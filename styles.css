@@ -1,0 +1,53 @@
+/* Basic styling for the body */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #373F51;
+}
+
+/* Container for the textarea and buttons */
+div {
+  text-align: center;
+}
+h1{
+    color: white;
+}
+/* Style for the textarea */
+textarea {
+  width: 600px;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #FFE8D1;
+  resize: none; /* Disable resizing */
+}
+
+/* Style for the buttons */
+button {
+  background-color: #F56476;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:disabled {
+  background-color: #79ADDC;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #E43F6F;
+}
